@@ -9,7 +9,7 @@ It demonstrates my ability to create and manage virtual networks, subnets, virtu
 Resource Group: `myfirstbuild` – container for all resources.
 Virtual Network (VNet): `vnet-helpdesk-lab` – private network in Azure.
 Subnet:** `subnet-servers` – segment within the VNet for organizing virtual machines.
-Virtual Machine (VM): `azureadmin` – Windows Server instance for practice.
+Virtual Machine (VM): `myfirstbuildmachine` – Windows Server instance for practice.
 Users: Created local accounts and managed remote access via RDP.
 Security Controls:Added users to Remote Desktop Users group for proper permissions.
 
@@ -37,21 +37,13 @@ Skills Practiced
 
 ---
 
-## Visual Diagrams
+Visual Diagrams
 
 ![VNet Lab Diagram](diagrams/vnet_lab.png)  
 *Diagram shows the VNet, subnet, VM, RDP access, and security groups.*
 
 ---
 
-## Next Steps
-
-Future improvements for this lab include:
-
-- Creating firewall rules and testing port access
-- Practicing software installation and updates remotely
-- Adding Azure Active Directory integration for cloud-based user management
-- Automating repetitive tasks using PowerShell
 
 ---
 
