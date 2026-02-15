@@ -1,0 +1,60 @@
+Helpdesk Lab – Azure Virtual Machine Practice
+
+The Overview
+This project documents my hands-on practice building a cloud lab environment in Microsoft Azure, simulating common helpdesk and IT support tasks.  
+It demonstrates my ability to create and manage virtual networks, subnets, virtual machines, and user accounts, as well as perform routine support tasks like password resets and remote access.
+
+ Lab Components
+
+Resource Group: `myfirstbuild` – container for all resources.
+Virtual Network (VNet): `vnet-helpdesk-lab` – private network in Azure.
+Subnet:** `subnet-servers` – segment within the VNet for organizing virtual machines.
+Virtual Machine (VM): `azureadmin` – Windows Server instance for practice.
+Users: Created local accounts and managed remote access via RDP.
+Security Controls:Added users to Remote Desktop Users group for proper permissions.
+
+
+Tasks Performed
+
+1. Created a resource group, VNet, and subnet in Azure.
+2. Deployed a Windows Server 2025 Datacenter VM within the subnet.
+3. Configured RDP access for remote management.
+4. Created new local user accounts and added them to the Remote Desktop Users group.
+5. Performed password resets and tested login as a new user.
+6. Practiced cost management by understanding VM sizing within the account type Iw was using and stopping/deallocating the VM when not in use.
+
+
+
+Skills Practiced
+
+- Azure portal navigation and resource management
+- Virtual network (VNet) and subnet creation
+- Virtual machine deployment and configuration
+- Remote Desktop Protocol (RDP) usage
+- User account management and password resets
+- Security awareness and permissions management
+- Cost-conscious cloud practices
+
+---
+
+## Visual Diagrams
+
+![VNet Lab Diagram](diagrams/vnet_lab.png)  
+*Diagram shows the VNet, subnet, VM, RDP access, and security groups.*
+
+---
+
+## Next Steps
+
+Future improvements for this lab include:
+
+- Creating firewall rules and testing port access
+- Practicing software installation and updates remotely
+- Adding Azure Active Directory integration for cloud-based user management
+- Automating repetitive tasks using PowerShell
+
+---
+
+## Notes
+
+This lab is for **educational and portfolio purposes only**. All passwords and sensitive information have been excluded or changed for security.
